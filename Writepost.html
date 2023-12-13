@@ -1,0 +1,190 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        background-color: black;
+        color: gold; 
+    }
+    .primary{
+        height: 40px;
+        width: 100px;
+        color:black;
+        background-color: gold;
+    }
+.sec{
+ height: 25px;
+ width: 160px;
+ cursor: pointer;
+   font-size: 30px;
+ background-color: gold;
+ color: black;
+ text-decoration: none;
+margin-left: 1150px;
+}
+.sec:hover {
+ background-color: rgb(247, 7, 7);
+}
+.box1{
+    display: flex;
+}
+    </style>
+</head>
+<body>
+     <h1>Created a Post</h1>
+		<div class="box1">
+        <textarea rows="33" cols="90">
+           
+            </textarea>
+            <img
+            src="postim.jpeg"
+            alt="Clickable World Map"
+            usemap="#map"
+            width="50%"
+            height="100%"
+          />         
+        </div>
+            <input class="primary" type="submit" value="Submit">           
+</body>
+</html> -->
+
+<!-- 2222222222222222222222222222222222222222222222 -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+        form{
+            width: 500px;
+            margin: auto;
+            padding: 10px;
+            box-shadow: 1px 2px 1px 1px #e3f6f5;
+        }
+        form label{
+            display: block;
+            font-size: 16px;
+        }
+        form button{
+            background-color: black;
+            color: gold;
+            cursor: pointer;
+        }
+        .main{
+            width: 1450px;
+            margin: auto;
+            display: flex;
+        }
+        .items{
+         flex-basis: 20%;
+           margin: 2%;
+           box-shadow: 0px 0px 10px #ff7e67;
+           padding: 2%;
+           position: relative;
+        }
+        .items span{
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 35px;
+            cursor: pointer;
+        }
+        .items h5{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="latestpost.html" method="get">
+<h1>Write Post</h1>
+<label for=" ">Name</label>
+<input type="text" name="uname" required>
+<label for="">Email</label>
+<input type="email" name="email" required/>
+<label for="">Post Box</label>
+<input type="text" name="postbox" style="font-size: 18pt; height: 80px; width:280px;"><br>
+<button>save</button>
+    </form>
+    <div class="main">
+    </div>
+    <!-- javascript -->
+
+    <script>
+    //     let user=[{
+    //   'name':'deepak',
+    //   'email':'deepak55@gmail.com'
+    //     },
+    //     {
+        
+    //   'name':'akash',
+    //   'email':'akash55@gmail.com'
+        
+    //     }]
+    //     localStorage.setItem("first",JSON.stringify(user))
+//   console.log(JSON.parse(localStorage.getItem("name")))
+
+
+// getting at from form 
+
+    //     let form=document.querySelector("form");
+    //     let main=document.querySelector(".main");
+    //     form.addEventListener("submit",(event)=>{
+    //         let name=event.target.uname.value;
+    //         let email=event.target.email.value;
+    //         let text=event.target.postbox.value;
+
+    //         let userData=JSON.parse(localStorage.getItem("userDetails")) ?? [];
+    //   userData.push({
+    //     'name':name,
+    //     'email':email,
+    //     'text':postbox
+    //   })
+    //   localStorage.setItem("userDetails",JSON.stringify(userData))
+    //         event.preventDefault();
+    //     })
+    //     let displayData=()=>{
+    //         let userData=JSON.parse(localStorage.getItem("userDetails")) ?? [];
+    //     let finalData='';    
+    //     userData.array.forEach((element,i) => {
+    //        finalData +=''
+    //     });
+    //     }
+    //     displayData();
+      </script>
+</body>
+</html>
+
+
+
+
+<!-- 333333333333333333333333333333333333333333 -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="latestpost.html">
+        <h1>Write Post</h1>
+        <label for=" ">Name</label>
+        <input type="text" name="uname" required>
+        <label for="">Email</label>
+        <input type="email" name="email" required/>
+        <label for="">Post Box</label>
+        <input type="text" name="postbox" required>
+        <button>save</button>
+            </form>
+</body>
+</html> -->
